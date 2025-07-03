@@ -2,6 +2,7 @@ import 'package:cadastro_detalhado/Cadastro.dart';
 import 'package:cadastro_detalhado/CadastroCliente.dart';
 import 'package:cadastro_detalhado/CadastroFornecedor.dart';
 import 'package:cadastro_detalhado/CadastroProduto.dart';
+import 'package:cadastro_detalhado/MenuLateral.dart';
 import 'package:cadastro_detalhado/TelaLogin.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: TelaLogin(),
+      home: MenuLateral(),
     );
   }
 }
